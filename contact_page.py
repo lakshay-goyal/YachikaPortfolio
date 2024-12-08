@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit_shadcn_ui as ui
 
 def contact_page():
     # Comprehensive Custom CSS for Contact Page
