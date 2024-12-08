@@ -143,6 +143,3 @@ def projects_page():
             with col2:
                 st.markdown("#### Project Impact")
                 st.markdown(f"> {project.get('impact', 'No specific impact metrics available')}")
-
-# Call the projects page function
-projects_page()

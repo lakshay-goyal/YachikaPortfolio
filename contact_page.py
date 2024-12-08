@@ -112,15 +112,10 @@ def contact_page():
     # Header
     st.markdown('<h1 class="contact-header">Contact Me</h1>', unsafe_allow_html=True)
 
-    # Main Contact Container
-    st.markdown('<div class="contact-container">', unsafe_allow_html=True)
-
     # Columns for Form and Contact Info
     col1, col2 = st.columns(2)
 
     with col1:
-        # Contact Form
-        st.markdown('<div class="contact-form">', unsafe_allow_html=True)
         with st.form("contact_form", clear_on_submit=True):
             st.markdown("### Send me a Message")
             
@@ -142,8 +137,6 @@ def contact_page():
         st.markdown('</div>', unsafe_allow_html=True)
 
     with col2:
-        # Contact Information
-        st.markdown('<div class="contact-info">', unsafe_allow_html=True)
         st.markdown("### Let's Connect")
         
         # Contact Details
@@ -187,6 +180,3 @@ def contact_page():
         st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('</div>', unsafe_allow_html=True)
-
-# Call the contact page function
-contact_page()

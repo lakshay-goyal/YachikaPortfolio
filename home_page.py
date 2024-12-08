@@ -191,6 +191,3 @@ def home_page():
         <a href="https://x.com/Yachika_Goyal" target="_blank">🐙</a>
     </div>
     """, unsafe_allow_html=True)
-
-# Call the home page function
-home_page()
