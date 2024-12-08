@@ -7,7 +7,7 @@ import streamlit as st
 from home_page import home_page
 from about_page import about_page
 from skill_page import skill_page
-from projects_page import projects_page
+# from projects_page import projects_page
 from experience_page import experience_page
 from contact_page import contact_page
 
@@ -117,7 +117,7 @@ def sidebar_navigation():
         "Home": home_page,
         "About": about_page,
         "Skill": skill_page,
-        "Projects": projects_page,
+        # "Projects": projects_page,
         "Experience": experience_page,
         "Contact": contact_page,
         # Add more pages here as you create them
